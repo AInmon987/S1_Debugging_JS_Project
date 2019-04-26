@@ -71,7 +71,7 @@ function verifyCrops() {
         messageHeadElement.innerHTML = "";
         messageElement.innerHTML = message;
     }
-    //Added the boolean valu of true and doin so, causes the function to work so every thing is filled out and the recomendation will come up. 
+    //Added the boolean value of true and doin so, causes the function to work so every thing is filled out and the recomendation will come up. Without being true the testforCompleteness function would not run. 
     cropsComplete = true;
 
 }
