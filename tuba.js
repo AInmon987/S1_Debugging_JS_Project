@@ -71,6 +71,9 @@ function verifyCrops() {
         messageHeadElement.innerHTML = "";
         messageElement.innerHTML = message;
     }
+    //Added the boolean valu of true and doin so, causes the function to work so every thing is filled out and the recomendation will come up. 
+    cropsComplete = true;
+
 }
 /* verify months text box entry is between 1 and 12 */
 function verifyMonths() {
